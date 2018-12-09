@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>css sprite animation v5 done</title>
+    <title>shanhai-jing</title>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css" media="all">
@@ -15,28 +15,28 @@
 
 <body>
 
-    <section class="panel blue">
+    <section class="1">
         <h2></h2>
         <div class="circle">
             <div class="shan"></div>
         </div>
     </section>
 
-    <section class="panel turqoise">
+    <section class="2">
         <h2></h2>
         <div class="circle">
             <div class="shan"></div>
         </div>
     </section>
 
-    <section class="panel green">
+    <section class="3">
         <h2></h2>
         <div class="circle">
             <div class="shan"></div>
         </div>
     </section>
 
-    <section class="panel bordeaux">
+    <section class="4">
         <h2></h2>
         <div class="circle">
             <div class="shan"></div>
