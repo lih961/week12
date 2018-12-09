@@ -48,7 +48,7 @@ h2 {
 
 .Shan {
     animation: shan .5s infinite steps(12);
-    background: url('../img/Shan') 0 0;
+    background: url('../img/Shan.jpg') 0 0;
     /*background-color: #011c01;*/
     height: 240px;
     position: relative;
