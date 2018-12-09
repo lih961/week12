@@ -1,6 +1,6 @@
 body {
     color: white;
-    font-family: 'PTSans', Geneva, Tahoma, Verdana, sans-serif;
+    font: 1.25em Snell Roundhand Regular, sans-serif;
     font-size: 100%;
     font-weight: 400;
     text-align: center;
@@ -20,25 +20,25 @@ h2 {
     width: 100%;
 }
 
-.blue {
-    background-color: dodgerblue;
+.Shanhai 1 {
+    background-color: #835f45;
 }
 
-.turqoise {
-    background-color: turquoise;
+.Shanhai 2 {
+    background-color: #011c01;
 }
 
-.green {
-    background-color: green;
+.Shanhai 3 {
+    background-color: #ffffff;
 }
 
-.bordeaux {
-    background-color: firebrick;
+.Shanhai 4 {
+    background-color: #011c01;
 /*    min-height: 100vh;*/
 }
 
 .circle {
-    background-color: yellow;
+    background-color: #835f45;
     border-radius: 50%;
     height: 25em;
     margin: 0 auto;
@@ -46,8 +46,8 @@ h2 {
     position: relative;
 }
 
-.ant {
-    animation: ant .5s infinite steps(12);
+.Shanhai {
+    animation: shanhai .5s infinite steps(12);
     background: url('../img/ant-walking-1.png') 0 0;
     /*background-color: blue;*/
     height: 240px;
