@@ -46,17 +46,17 @@ h2 {
     position: relative;
 }
 
-.Shanhai {
-    animation: shanhai .5s infinite steps(12);
-    background: url('../img/ant-walking-1.png') 0 0;
-    /*background-color: blue;*/
+.Shan {
+    animation: shan .5s infinite steps(12);
+    background: url('../img/Shan') 0 0;
+    /*background-color: #011c01;*/
     height: 240px;
     position: relative;
     transform: rotate(90deg) translateX(90px) translateY(-37px) scaleX(1) scaleY(1);
     width: 320px;
 }
 
-@keyframes ant {
+@keyframes Shan {
     to {
         background-position: -3840px;
     }
