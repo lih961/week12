@@ -14,21 +14,21 @@ h2 {
     top: 50%;
 }
 
-.panel {
+.1 {
     min-height: 100vh;
     padding-top: 25vh;
     width: 100%;
 }
 
-.blue {
+.2 {
     background-color: #835f45;
 }
 
-.turqoise {
+.3 {
     background-color: saddlebrown;
 }
 
-.green {
+.4 {
     background-color: burlywood;
 }
 
