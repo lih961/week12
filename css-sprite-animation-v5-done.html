@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>css sprite animation v5 done</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/ScrollMagic.js"></script>
+    <script src="js/debug.addIndicators.js"></script>
+    <script src="js/animation.gsap.js"></script>
+</head>
+
+<body>
+
+    <section class="panel blue">
+        <h2></h2>
+        <div class="circle">
+            <div class="shan"></div>
+        </div>
+    </section>
+
+    <section class="panel turqoise">
+        <h2></h2>
+        <div class="circle">
+            <div class="shan"></div>
+        </div>
+    </section>
+
+    <section class="panel green">
+        <h2></h2>
+        <div class="circle">
+            <div class="shan"></div>
+        </div>
+    </section>
+
+    <section class="panel bordeaux">
+        <h2></h2>
+        <div class="circle">
+            <div class="shan"></div>
+        </div>
+    </section>
+
+    <script>
+        $(function() { // wait for document ready
+            // init
+            var controller = new ScrollMagic.Controller({
+                globalSceneOptions: {
+                    triggerHook: 'onLeave'
+                }
+            });
+
+            // get all slides
+            var slides = document.querySelectorAll("section.panel");
+
+            // create scene for every slide
+            for (var i = 0; i < slides.length; i++) {
+                new ScrollMagic.Scene({
+                        triggerElement: slides[i]
+                    })
+                    .setPin(slides[i])
+                    // .addIndicators()
+                    // add indicators (requires plugin)
+                    .addTo(controller);
+            }
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
